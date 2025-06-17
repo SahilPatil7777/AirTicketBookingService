@@ -19,7 +19,7 @@ module.exports = {
       type: Sequelize.INTEGER,
       allowNull: false,
       defaultValue: 0,
-    }); 
+    });
   },
 
   async down(queryInterface, Sequelize) {
